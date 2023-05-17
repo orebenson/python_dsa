@@ -1,3 +1,12 @@
+'''
+Singly linked list implementation
+
+search: O(n)
+insert at element: O(1)
+delete element: O(1)
+insert at end: O(n) 
+'''
+
 class Node:
     def __init__(self, data):
         self.data = data
