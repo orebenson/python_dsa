@@ -8,7 +8,7 @@ insert at end: O(n)
 '''
 
 class Node:
-    def __init__(self, data):
+    def __init__(self, data=None):
         self.data = data
         self.next = None
 

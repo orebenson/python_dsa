@@ -3,6 +3,21 @@ Binary search tree implementation
 
 form of linked list
 
+not every tree is a binary search tree
+
+complete binary tree:
+- each level is full besides possibly the last one 
+
+full binary tree:
+- every node has 0 or 2 children
+
+perfect binary tree:
+- all nodes have 2 children
+- all leaf nodes on same level
+
+balanced trees:
+- red black trees and avl trees are types of balanced trees
+
 avg case: search, insert, delete: O(logn)
 worst case: O(n)
 search, insert, delete: O(h) - bst height
