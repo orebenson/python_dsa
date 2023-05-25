@@ -1,5 +1,10 @@
 '''
-Binary search algorithm implementation
+Binary search algorithm
+- split sorted list in half and decide what side it is in
+- keep doing this till item is found
+
+Time: O(logn)
+
 '''
 
 

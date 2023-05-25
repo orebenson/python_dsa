@@ -15,6 +15,9 @@ Extract minimum/maximum from heap: O(log n)
 - swap root with bottom rightmost leaf
 - swap root down with min/max node till heap is satisfied
 
+
+python uses heapq module for heaps
+
 '''
 
 from tree.binary_search_tree import TreeNode

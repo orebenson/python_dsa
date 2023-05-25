@@ -1,3 +1,17 @@
+'''
+Flood fill of an 'image'
+
+Input:
+- integer matrix representing an image
+- pixel row and column
+- colour to fill
+
+Ouput
+- Matrix with the colour filled from that pixel
+
+'''
+
+
 def floodFill(image, sr, sc, color):
         if image[sr][sc] == color: return image
         start_color = image[sr][sc]

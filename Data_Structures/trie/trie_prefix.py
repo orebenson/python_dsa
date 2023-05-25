@@ -6,3 +6,11 @@ every path to a leaf indicates a complete word
 leaf nodes are a special type to indicate that the word is complete
 
 '''
+
+class Trie:
+    def __init__(self) -> None:
+        
+        
+    # def verifyWord()
+    # def insert()
+    # .....
